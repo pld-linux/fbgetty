@@ -5,10 +5,11 @@ Version:	0.1.698
 Release:	2
 License:	GPL v2+
 Group:		Applications/System
-Source0:	http://fbgetty.meuh.eu.org/downloads/%{name}-%{version}.tar.gz
+Source0:	http://projects.meuh.org/fbgetty/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	1705bc0f8f1e03fe50d324ba84ac4e56
+# Source0-size:	279751
 Patch0:		%{name}-info.patch
-URL:		http://fbgetty.meuh.eu.org/
+URL:		http://projects.meuh.org/fbgetty/
 BuildRequires:	automake
 BuildRequires:	texinfo
 Requires:	login
