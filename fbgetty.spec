@@ -2,13 +2,14 @@ Summary:	getty program for Linux framebuffer console
 Summary(pl):	Program getty dla linuksowej konsoli z framebufferem
 Name:		fbgetty
 Version:	0.1.698
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/System
 Source0:	http://fbgetty.meuh.eu.org/downloads/%{name}-%{version}.tar.gz
 # Source0-md5:	1705bc0f8f1e03fe50d324ba84ac4e56
 Patch0:		%{name}-info.patch
 URL:		http://fbgetty.meuh.eu.org/
+BuildRequires:	automake
 BuildRequires:	texinfo
 Requires:	login
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -42,6 +43,7 @@ Mo¿liwo¶ci:
 %patch -p1
 
 %build
+cp -f /usr/share/automake/config.* config
 %configure
 %{__make}
 
