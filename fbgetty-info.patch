@@ -1,0 +1,14 @@
+--- fbgetty-0.1.698/docs/fbgetty.texi.orig	Sat Jul 21 21:55:23 2001
++++ fbgetty-0.1.698/docs/fbgetty.texi	Fri Nov  1 17:47:41 2002
+@@ -7,9 +7,9 @@
+ 
+ @include version.texi
+ 
+-@dircategory Console Tools
++@dircategory Miscellaneous:
+ @direntry
+-* fbgetty: (fbgetty).		A linux specific getty program
++* fbgetty: (fbgetty).			A linux specific getty program
+ @end direntry
+ 
+ @ifinfo
