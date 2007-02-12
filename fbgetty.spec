@@ -1,5 +1,5 @@
 Summary:	getty program for Linux framebuffer console
-Summary(pl.UTF-8):   Program getty dla linuksowej konsoli z framebufferem
+Summary(pl.UTF-8):	Program getty dla linuksowej konsoli z framebufferem
 Name:		fbgetty
 Version:	0.1.698
 Release:	2
