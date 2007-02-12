@@ -1,5 +1,5 @@
 Summary:	getty program for Linux framebuffer console
-Summary(pl):	Program getty dla linuksowej konsoli z framebufferem
+Summary(pl.UTF-8):   Program getty dla linuksowej konsoli z framebufferem
 Name:		fbgetty
 Version:	0.1.698
 Release:	2
@@ -26,17 +26,17 @@ Features:
 - display the output of any program
 - include many files in issue
 
-%description -l pl
-fbgetty to nowy program getty w pe≥ni obs≥uguj±cy moøliwo∂ci
-linuksowej konsoli. Aktualnie dzia≥a tylko pod Linuksem.
+%description -l pl.UTF-8
+fbgetty to nowy program getty w pe≈Çni obs≈ÇugujƒÖcy mo≈ºliwo≈õci
+linuksowej konsoli. Aktualnie dzia≈Ça tylko pod Linuksem.
 
-Moøliwo∂ci:
-- wy∂wietlanie rozszerzonego issue (kody specjalne, zmienne pow≥oki)
-- obs≥uga framebuffera (wy∂wietlanie logo) [jeszcze nie dzia≥a]
-- od∂wieøanie przy aktywacji VT (czas, liczba uøytkownikÛw, uptime)
-- wy∂wietlanie daty i czasu zgodnie z ustawieniami lokalnymi
-- wy∂wietlanie wyj∂cia dowolnego programu
-- do≥±czanie wielu plikÛw do issue.
+Mo≈ºliwo≈õci:
+- wy≈õwietlanie rozszerzonego issue (kody specjalne, zmienne pow≈Çoki)
+- obs≈Çuga framebuffera (wy≈õwietlanie logo) [jeszcze nie dzia≈Ça]
+- od≈õwie≈ºanie przy aktywacji VT (czas, liczba u≈ºytkownik√≥w, uptime)
+- wy≈õwietlanie daty i czasu zgodnie z ustawieniami lokalnymi
+- wy≈õwietlanie wyj≈õcia dowolnego programu
+- do≈ÇƒÖczanie wielu plik√≥w do issue.
 
 %prep
 %setup -q
