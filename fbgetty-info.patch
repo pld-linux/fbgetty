@@ -1,10 +1,11 @@
 --- fbgetty-0.1.698/docs/fbgetty.texi.orig	Sat Jul 21 21:55:23 2001
 +++ fbgetty-0.1.698/docs/fbgetty.texi	Fri Nov  1 17:47:41 2002
-@@ -7,9 +7,9 @@
+@@ -7,9 +7,10 @@
  
  @include version.texi
  
 -@dircategory Console Tools
++@documentencoding ISO-8859-1
 +@dircategory Miscellaneous:
  @direntry
 -* fbgetty: (fbgetty).		A linux specific getty program
@@ -12,3 +13,16 @@
  @end direntry
  
  @ifinfo
+@@ -135,10 +136,10 @@ Display this @var{prompt} to invite.
+ @itemx --login-timeout=@var{timeout}
+ Set login timeout to @var{timeout}. This is for erasing login after a long time (security purpose).
+ 
+-@itemx --version
++@item --version
+ Display version (only use in interactive mode: do not use it in the inittab)
+ 
+-@itemx --help
++@item --help
+ Display the list of switch
+ @end table
+ 
